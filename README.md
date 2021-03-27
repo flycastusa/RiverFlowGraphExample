@@ -1,4 +1,6 @@
-# Flycast River Flows API Graph Example
+# FlyCast River Flows API Graph Example
+
+This is an example demonstrating how to display data from the [FlyCast River Flows API](https://api.flycastusa.com) using the Javascript [amCharts](https://www.amcharts.com/) library.
 
 ## Running the example
 
@@ -23,7 +25,7 @@
     python -m SimpleHTTPServer
     ```
 
-    Detailed instructions are available [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server).
+    Detailed instructions are available [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
 5. Open http://localhost:8000 in your browser
 
