@@ -5,8 +5,7 @@ This is an example demonstrating how to display data from the [FlyCast River Flo
 ## Running the example
 
 1. Clone this repository
-2. Navigate to the repository directory using the `cd` command
-3. Edit `flow-graph.js:4` to use your FlyCast provided API key
+2. Using your editor of choice, change `flow-graph.js:4` to use your FlyCast provided API key
 
     ```javascript
     var flycastFlowConfig = {
@@ -15,7 +14,10 @@ This is an example demonstrating how to display data from the [FlyCast River Flo
     };
     ```
 
-4. Start a local HTTP server so these files can be viewed in a web browser. One of the easiest ways to do this is to use the python built in HTTP server. Assuming you have Python installed, run the following command:
+3. Start a local HTTP server so these files can be viewed in a web browser. One of the easiest ways to do this is to use the Python built-in HTTP server
+
+    1. In a new terminal use the `cd` command to navigate to the directory where you cloned this repository
+    2. Assuming you have Python installed, run the command below. Instructions for installing Python and additional details are available [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
     ```bash
     # If Python version is 3.X
@@ -25,9 +27,8 @@ This is an example demonstrating how to display data from the [FlyCast River Flo
     python -m SimpleHTTPServer
     ```
 
-    Detailed instructions are available [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
-
-5. Open http://localhost:8000 in your browser
+4. Open http://localhost:8000 in your web browser to see the example. If everything is working correctly, it should look like the screenshot below
+   ![Screenshot of example in web browser](.images/river_flow_example.jpg)
 
 ## Installing into your web page
 
