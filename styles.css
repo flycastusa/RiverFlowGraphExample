@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#chart-container {
+    height: 480px;
+    width: 640px;
+}
