@@ -58,7 +58,7 @@ function getData(onSuccess, onError, apiKey) {
     };
 
     request.onerror = function () {
-        onError("Failed to fetch data from Flycast API");
+        onError("Failed to fetch data from FlyCast API");
     };
     request.send();
 }
@@ -135,13 +135,13 @@ function _setDischargeAxisLimits(rawData, dischargeAxis) {
     var minDischarge = Math.min.apply(
         null,
         rawData.flow_data.map(function (flow) {
-            return flow.Discharge;
+            return flow.discharge;
         })
     );
     var maxDischarge = Math.max.apply(
         null,
         rawData.flow_data.map(function (flow) {
-            return flow.Discharge;
+            return flow.discharge;
         })
     );
     var diffDischarge = maxDischarge - minDischarge;
@@ -158,13 +158,13 @@ function _setGageAxisLimits(rawData, gageAxis) {
     var minGage = Math.min.apply(
         null,
         rawData.flow_data.map(function (flow) {
-            return flow.Gage_Height;
+            return flow.gage_height;
         })
     );
     var maxGage = Math.max.apply(
         null,
         rawData.flow_data.map(function (flow) {
-            return flow.Gage_Height;
+            return flow.gage_height;
         })
     );
     var diffGage = maxGage - minGage;
